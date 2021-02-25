@@ -1,6 +1,8 @@
 body
 {
     background-color: #aa0000;
+    max-width: 90%;
+    margin-left: 5%;
 }
 
 nav
@@ -8,6 +10,8 @@ nav
     width: 100%;
     height: 10%;
 }
+
+
 
 .block-box
 {
@@ -17,22 +21,26 @@ nav
 
 .block-text
 {
-    border: solid black 3px;
+    border: solid maroon;
 }
 
 .block-photo
 {
-    border: solid black 3px;
+    border: solid maroon;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #photo-david
 {
+    max-height: 60%;
+    margin-top: 10%;
     border-radius: 50%;
 }
 
 .block-img
 {
-    border: solid black 3px;
+    border: solid maroon;
 }
 
 footer
@@ -46,39 +54,41 @@ footer
 
 
 
-
-
-
-
-
-
-
-
-
+h1, h2
+{
+    text-shadow: 0 0 0.05em white, 0 0 0.05em  white, 0 0 0.05em  white;
+    text-align: center;
+}
 
 h1
 {
-    text-shadow: 0 0 0.05em white, 0 0 0.05em  white, 0 0 0.05em  white;
+    font-size: 4em;
 }
 
 h2
 {
-    text-shadow: 0 0 0.05em white, 0 0 0.05em  white, 0 0 0.05em  white;
+    font-size: 3em;
+}
+
+h3, p
+{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 h3
 {
-    text-shadow: 0 0 0.05em white, 0 0 0.05em  white, 0 0 0.05em  white;
+    font-size: 2em;
 }
 
 p
 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    text-align: justify;
+    font-size: 1.5em;
 }
 
 img
 {
-    border-radius: 20%;
+    border-radius: 5%;
 }

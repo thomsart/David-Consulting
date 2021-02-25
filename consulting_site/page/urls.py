@@ -21,5 +21,5 @@ from page import views
 urlpatterns = [
     path('', views.home, name="home"),
     path('blog/', views.blog, name="blog"),
-    path('mentions_legales/', views.mentions_legales, name='mentions_legales'),
+    path('mentions_legales/', views.mentions_legales, name="mentions_legales"),
 ]

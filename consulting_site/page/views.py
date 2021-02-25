@@ -9,7 +9,9 @@ def home(request):
     return render(request, 'home.html')
 
 def blog(request):
-    pass
+
+    
+    return render(request, 'blog.html')
 
 def mentions_legales(request):
     return render(request, 'mentions_legales.html')
