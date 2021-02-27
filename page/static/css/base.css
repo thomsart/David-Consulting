@@ -9,13 +9,13 @@ nav
 {
     background-color: #cd0d0d;
     position: fixed;
-    opacity: 0.9;
+    opacity: 0.6;
     border-radius: 20px;
     width: 90%;
     height: 15%;
 }
 
-#hand:hover
+#arrow:hover
 {
     transform: scale(1.2);
     transition: transform 100ms ease-in-out;
