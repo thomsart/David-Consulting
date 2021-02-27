@@ -1,1 +1,1 @@
-web: gunicorn consulting_site.wsgi
+web: gunicorn consulting_site.wsgi --log-file -
