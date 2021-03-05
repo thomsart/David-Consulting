@@ -20,8 +20,15 @@ nav
 {
     nav
     {
-        position: static;
-        flex-direction: column;
+        height: 5%;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .mentions_legales
+    {
+        display: none;
     }
 }
 
