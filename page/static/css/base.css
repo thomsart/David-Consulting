@@ -1,6 +1,6 @@
 body
 {
-    background-color: #2975c2;
+    background-color: #66aaef;
     max-width: 90%;
     margin-left: 5%;
 }
@@ -20,7 +20,7 @@ nav
 {
     nav
     {
-        height: 5%;
+        height: 6%;
     }
 }
 
@@ -32,13 +32,13 @@ nav
     }
 }
 
-#arrow:hover
+.arrow-top:hover
 {
     transform: scale(1.2);
     transition: transform 100ms ease-in-out;
 }
 
-#up:hover
+.arrow-back:hover
 {
     transform: scale(1.2);
     transition: transform 100ms ease-in-out;
@@ -75,6 +75,7 @@ nav
         display: block;
         justify-content: center;
         height: 20%;
+        padding-top: 10%;
     }
 }
 
@@ -143,54 +144,6 @@ nav
     width: 15%;
     height: 100%;
 }
-
-
-
-
-
-
-
-
-
-.arrow-top
-{
-    /* border: solid rgb(78, 62, 104); */
-    background-image: url("../css/image/up.png");
-}
-@media screen and (max-width: 1024px)
-{
-    .arrow-top
-    {
-        
-    }
-}
-
-.arrow-back
-{
-    /* border: solid rgb(78, 62, 104); */
-    background-image: url("../css/image/back.png");
-    max-height: 100%;
-    max-width: 100%;
-}
-@media screen and (max-width: 1024px)
-{
-    .arrow-back
-    {
-        height: 5%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .block-contact
 {
