@@ -1,2 +1,4 @@
+__pycache__
 env
-ressources
+David-Consulting/staticfiles
+David-Consulting/consulting_site/settings/production.py
