@@ -1,5 +1,6 @@
 body
 {
+    margin: 0;
     background-color: #c9d5e7;
     max-width: 90%;
     margin-left: 5%;
@@ -12,7 +13,7 @@ nav
     margin-top: auto;
     display: flex;
     position: fixed;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 90%;
     height: 12%;
     justify-content: space-evenly;
@@ -41,7 +42,7 @@ nav
 
 .arrow-back:hover
 {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 100ms ease-in-out;
 }
 
@@ -183,7 +184,7 @@ footer
 
 
 
-h1, h2, h3, h4, p
+h1, h2, h3, h4, h6, p, li
 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(36, 36, 36);
@@ -213,12 +214,17 @@ h3, p
     margin-bottom: 5%;
 }
 
+ul
+{
+    margin-left: 10%;   
+}
+
 h3, h4
 {
     font-size: 1.5em;
 }
 
-p
+p, li
 {
     font-size: 1.2em;
 }
@@ -233,4 +239,9 @@ a,h4:hover
 {
     text-decoration: none;
     text-shadow: 0 0 0.1em white, 0 0 0.1em  white, 0 0 0.1em  white;
+}
+
+li
+{
+    list-style-type: disc;
 }
